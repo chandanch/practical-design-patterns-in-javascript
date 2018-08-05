@@ -1,3 +1,9 @@
+/**
+* Propety values can be accessed using two ways:
+* 1. Dot notation: <objectname>.<propertyname>
+* 2. Square bracket notation: <objectname>["<propertyname>"]
+*/
+
 // creation of object and adding properties & values: Generic way of object creation
 var userDetails = {
   name: 'chandio',
