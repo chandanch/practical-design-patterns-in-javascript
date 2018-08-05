@@ -12,6 +12,7 @@ var player = {}
 // Method 2: Using create method
 var task = Object.create(Object.prototype);
 console.log(userDetails);
+
 // Method 3: Using the new keyword
 var userDetails = new Object();
 console.log(userDetails);
