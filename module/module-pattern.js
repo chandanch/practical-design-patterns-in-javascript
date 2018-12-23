@@ -31,4 +31,5 @@ var HttpService = function() {
         post: postData
     }
 }
- 
+
+module.exports = HttpService();

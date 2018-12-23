@@ -14,7 +14,7 @@ Task.prototype.finishTask = function() {
 }
 
 Task.prototype.saveTask = function() {
-    // save task in DB by passing the task object: this represents the task object here
+    // save task in DB by passing the task object: `this` represents the task object here
     DBService.save(this);
     console.log('Task ' + this.name + ' is now saved');
 }
