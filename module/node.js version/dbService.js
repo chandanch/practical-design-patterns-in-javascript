@@ -26,4 +26,5 @@ var DBService = function() {
     }
 }
 
+// invoke the function so as to returns the object and its methods included in the return statement
 module.exports = DBService();
