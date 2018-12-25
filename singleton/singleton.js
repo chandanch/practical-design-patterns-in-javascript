@@ -1,6 +1,6 @@
 /**
  * Singleton Pattern: Restricts to create only one instance of an object throught the application
- * 
+ * Singleton works differently in node.js & in angularjs
 */
 
 var TaskRepo = (function () {
