@@ -1,11 +1,9 @@
-
-
 /**
  * Factory: imports all the dependencices at once place
  * The imported dependencies are stored in a object and the object will returned
  */
 var moduleFactory = function() {
-    // refers to the object scope of moduleFactory
+    // refers to the object scope of `moduleFactory`
     var modules = this;
 
     // add all the modules than needs to be imported

@@ -1,3 +1,6 @@
+/**
+ * Service to add or get project details
+ */
 var ProjectService = function() {
 
     var get = function(id) {

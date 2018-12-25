@@ -1,3 +1,6 @@
+/**
+ * Service to add or get user details
+ */
 var UserService = function() {
 
     var get = function(id) {
